@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto:wght@700;900&display=swap');
+
+body {
+    background-image: url(../images/space.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+div#interface {
+    color: #ffffff;
+    width: 1000px;
+    background-color: #0b0c10;
+    margin: -20px auto 10px auto;
+    border: 1px solid #000;
+    padding: 10px;
+}
+section#corpo {
+    border-top: 1px solid #c2c2c2;
+    padding-top: 50px;
+}
+
+/* Formatação de texto */
+header#cabecalho h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 48px;
+}
+section#corpo h2 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+section#corpo h3 {
+    text-align: center;
+}
+section#corpo h4 {
+    margin-left: 50px;
+}
+section#corpo p {
+    text-align: justify;
+}
+section#corpo p.ultimo {
+    margin-bottom: 50px;
+}
+section#corpo ul.lista {
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+/* Formatação de Imagem */
+
+img {
+    margin-left: 150px;
+}
+div.image img {
+    width: 800px;
+    height: 350px;
+    margin-left: 100px;
+}
+div.image2 img {
+    width: 800px;
+    height: 350px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+div.image3 img {
+    width: 800px;
+    height: 550px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+div.chat1 img {
+    width: 500px;
+    height: 430px;
+    margin-left: 250px;
+}
+div.chat2 img {
+    margin-bottom: 50px;
+}
+div.image-chatgpt img {
+    width: 700px;
+    height: 300px;
+    margin-left: 150px;
+}
+
+/* Formatação Menu */
+
+nav#menu {
+    display: block;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 10px;
+    top: 0px;
+    left: -5px;
+}
+nav#menu li {
+    display: inline-block;
+    background-color: none;
+    padding: 7px;
+    margin: none;
+    border-right: 1px solid #c2c2c2;
+    transition: background-color .5s;
+}
+nav#menu li.ultimo {
+    border-right: 0px;
+}
+nav#menu li:hover {
+    background-color: grey;
+}
+nav#menu h1 {
+    display: none;
+}
+nav#menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav#menu a:hover {
+    color: #ffffff;
+}
+
+/* Formatação Rodape */
+
+footer#rodape {
+    clear: both;
+    border-top: 1px #606060 solid;
+}
+footer#rodape p {
+    text-align: center;
+}
+footer#rodape a {
+    text-decoration: none;
+    color: gray;
+    font-size: 10px;
+}
